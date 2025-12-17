@@ -202,12 +202,14 @@ Surprise ライブラリを使用
 ユーザ×映画行列を低ランク分解
 
 潜在特徴 P（ユーザ）・Q（映画）を学習
+
 <img width="83" height="32" alt="image" src="https://github.com/user-attachments/assets/c398c84a-2438-400c-9189-0533f29381b0" />
 
 
 予測式：
 
 <img width="224" height="34" alt="image" src="https://github.com/user-attachments/assets/1055e449-e900-4b81-8958-2f2068de8e00" />
+
 ## ⏳ Recency Weight（時間減衰）
 
 半減期：14日
