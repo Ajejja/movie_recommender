@@ -1,0 +1,110 @@
+.agent-btn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  font-size: 24px;
+  padding: 14px 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  z-index: 9999;
+}
+
+.agent-window {
+  width: 360px;
+  height: 520px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  z-index: 9999;
+}
+
+.agent-header {
+  background: #2d3436;
+  padding: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.agent-body {
+  padding: 12px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.agent-input {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.agent-send-btn {
+  width: 100%;
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 15px;
+  padding: 12px;
+  background: #f1f2f6;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+}
+
+.trailer-link {
+  display: block;
+  margin-top: 8px;
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.result-poster {
+  width: 120px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.similar-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.similar-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.similar-card p {
+  font-size: 12px;
+  margin-top: 4px;
+}

@@ -1,0 +1,25 @@
+# ===== ENV =====
+.env
+.env.*
+*.env
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+venv/
+*.log
+
+# ===== DATA & MODELS (EXCLUDE FROM REPO) =====
+backend/data/
+backend/model/*.pkl
+
+# ===== NODE / VITE =====
+node_modules/
+dist/
+build/
+
+# ===== OS / IDE =====
+.DS_Store
+.vscode/
+.idea/
+backend/training_log.txt
